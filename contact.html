@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Shalender Art Studio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <img class="brand-logo" src="assets/logo.png" alt="Shalender Art Studio logo" />
+        <span>Shalender Studios</span>
+      </div>
+      
+      <!-- Hamburger Menu Button (Mobile Only) -->
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      
+      <!-- Navigation Links -->
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="shop.html">Shop</a>
+        <a class="btn-cta" href="contact.html">Contact</a>
+      </nav>
+      
+      <!-- Mobile Navigation Overlay -->
+      <div class="mobile-nav-overlay">
+        <nav class="mobile-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="contact-main">
+    <div class="container">
+      <!-- Page Title -->
+      <div class="contact-header">
+        <h1>Get In Touch</h1>
+        <p>Ready to transform your space with exceptional art? Let's discuss your vision.</p>
+      </div>
+
+      <!-- Two Column Layout -->
+      <div class="contact-content">
+        <!-- Left Column - Company Information -->
+        <div class="contact-info">
+          <div class="info-section">
+            <h2>Shalender Studios</h2>
+            <p class="tagline">We make your place alive</p>
+          </div>
+
+          <div class="info-section">
+            <h3>📍 Main Office</h3>
+            <p>Golf Link Apartments, Sector 23B<br>
+               Dwarka, New Delhi<br>
+               Pincode: 110077</p>
+          </div>
+
+          <div class="info-section">
+            <h3>📧 Email</h3>
+            <p><a href="mailto:shalenderart@gmail.com">shalenderart@gmail.com</a></p>
+          </div>
+
+          <div class="info-section">
+            <h3>📞 Phone</h3>
+            <p>
+              <a href="tel:+919891873929">+91 9891873929</a><br>
+              <a href="tel:+918826534847">+91 8826534847</a>
+            </p>
+          </div>
+
+          <div class="info-section">
+            <h3>🕒 Office Hours</h3>
+            <p>Call us any day<br>10 AM – 9 PM</p>
+          </div>
+        </div>
+
+        <!-- Right Column - Contact Form -->
+        <div class="contact-form-container">
+          <h2>Send us a Message</h2>
+          <form class="contact-form" action="https://formspree.io/f/mldlknjy" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Phone Number (Optional)">
+            </div>
+            <div class="form-group">
+              <select name="service" required>
+                <option value="">Select Service Interest</option>
+                <option value="murals">Murals</option>
+                <option value="commission">Commission Work</option>
+                <option value="sculptures">Sculptures</option>
+                <option value="training">Training</option>
+                <option value="consultation">Consultation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Tell us about your project..." rows="3" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+          <p id="status" class="form-status"></p>
+        </div>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="social-media-section">
+        <h2>Follow Us</h2>
+        <p>Stay connected and see our latest work</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/shalender.singh.161/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on Facebook">
+            <img src="assets/Social_Media_icons/facebook.png" alt="Facebook" />
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/shalenderart/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow us on Instagram">
+            <img src="assets/Social_Media_icons/instagram.png" alt="Instagram" />
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.youtube.com/@SHALENDERARTIST" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Subscribe to our YouTube channel">
+            <img src="assets/Social_Media_icons/youtube-logo-youtube-icon-transparent-free-png.webp" alt="YouTube" />
+            <span>YouTube</span>
+          </a>
+          <a href="https://wa.me/919891873929" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Contact us on WhatsApp">
+            <img src="assets/Social_Media_icons/whatsapp.png" alt="WhatsApp" />
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>Do you offer freelancing services?</h3>
+            <p>Yes, we provide freelancing services for individual projects. Whether you need a custom mural, sculpture, or commissioned artwork, we work with clients of all sizes.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h3>Can I visit your office or studio?</h3>
+            <p>Absolutely! Office and studio visits are available by appointment. Please call us to schedule a convenient time to discuss your project in person.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h3>What are your operating hours?</h3>
+            <p>We're available to take calls any day from 10 AM to 9 PM. For studio visits and meetings, please schedule an appointment in advance.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h3>Do you work on large-scale commercial projects?</h3>
+            <p>Yes, we specialize in both residential and commercial projects. We've completed over 100 walls and worked with 50+ clients across different industries.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h3>How long does a typical project take?</h3>
+            <p>Project timelines vary based on size and complexity. Small pieces may take 1-2 weeks, while large murals can take several weeks to months. We'll provide a detailed timeline during consultation.</p>
+          </div>
+          
+          <div class="faq-item">
+            <h3>Do you provide training services?</h3>
+            <p>Yes, we offer professional art training for individuals and groups. Our experienced artists provide hands-on instruction in various techniques and mediums.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const form = document.querySelector(".contact-form");
+    const status = document.getElementById("status");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      let data = new FormData(form);
+      
+      status.innerHTML = "⏳ Sending message...";
+      status.className = "form-status sending";
+      
+      fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "✅ Thanks! Your message has been sent successfully.";
+          status.className = "form-status success";
+          form.reset();
+        } else {
+          status.innerHTML = "❌ Oops! Something went wrong. Please try again.";
+          status.className = "form-status error";
+        }
+      }).catch(error => {
+        status.innerHTML = "❌ Network error. Please check your connection and try again.";
+        status.className = "form-status error";
+      });
+    });
+  </script>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Shalender Studios logo" />
+        <div>
+          <div class="title">Shalender Studios Pvt. Ltd.</div>
+          <div class="tagline">We make your place alive</div>
+          <div class="desc">In 2004, Shalender Studios was founded to create extraordinary artworks with a group of
+            experienced and professional artists, graphic designers, and skilled workers.</div>
+        </div>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="murals.html">Murals</a></li>
+            <li><a href="commission.html">Commission Work</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="sculptures.html">Sculptures</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="contact-line">📍 <span>New Delhi, India</span></div>
+          <div class="contact-line">📧 <a href="mailto:shalenderart@gmail.com">shalenderart@gmail.com</a></div>
+          <div class="contact-line">📞 <a href="tel:+918826534837">8826534837</a>, <a
+              href="tel:+919891873929">9891873929</a></div>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/shalender.singh.161/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <img src="assets/Social_Media_icons/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/shalenderart/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <img src="assets/Social_Media_icons/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://www.youtube.com/@SHALENDERARTIST" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <img src="assets/Social_Media_icons/youtube-logo-youtube-icon-transparent-free-png.webp" alt="YouTube" />
+            </a>
+            <a href="https://wa.me/919891873929" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <img src="assets/Social_Media_icons/whatsapp.png" alt="WhatsApp" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">ALL IMAGES AND SITE CONTENT COPYRIGHT © 2025 SHALENDER SINGH - ALL RIGHTS RESERVED</div>
+  </footer>
+</body>
+
+</html>

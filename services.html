@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Services - Shalender Art Studio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body >
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <img class="brand-logo" src="assets/logo.png" alt="Shalender Art Studio logo" />
+          <span>Shalender Studios</span>
+        </div>
+        
+        <!-- Hamburger Menu Button (Mobile Only) -->
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+        
+        <!-- Navigation Links -->
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="shop.html">Shop</a>
+          <a class="btn-cta" href="contact.html">Contact</a>
+        </nav>
+        
+        <!-- Mobile Navigation Overlay -->
+        <div class="mobile-nav-overlay">
+          <nav class="mobile-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+      <main class="container">
+        <section class="service-branches" aria-label="Services">
+          <!-- <h1 class="services-title">Services</h1> -->
+          <!-- Responsive SVG tree diagram (desktop/tablet) -->
+          <svg class="service-tree" viewBox="0 0 1200 520" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Services tree diagram">
+            <!-- L-shaped connectors: vertical from Services to hub between Commission Works and Training -->
+            <path class="tree-line" d="M735 116 L735 180" />
+            <!-- hub to each second-row node -->
+            <path class="tree-line" d="M735 180 L350 180 L350 220" />
+            <path class="tree-line" d="M735 180 L620 180 L620 220" />
+            <path class="tree-line" d="M735 180 L850 180 L850 220" />
+            <path class="tree-line" d="M735 180 L1100 180 L1100 220" />
+
+            <!-- Murals to children (L-shaped) -->
+            <path class="tree-line" d="M350 276 L350 340 L200 340 L200 380" />
+            <path class="tree-line" d="M350 276 L350 340 L350 340 L350 380" />
+            <path class="tree-line" d="M350 276 L350 340 L500 340 L500 380" />
+
+            <!-- Sculptures (now last) to its children (L-shaped, shifted slightly left) -->
+            <path class="tree-line" d="M1100 276 L1100 340 L980 340 L980 380" />
+            <path class="tree-line" d="M1100 276 L1100 340 L1120 340 L1120 380" />
+
+            <!-- Top Node -->
+            <g class="tree-node">
+              <rect x="645" y="60" rx="14" ry="14" width="180" height="56" />
+              <text x="735" y="95" class="tree-label" text-anchor="middle">Services</text>
+            </g>
+
+            <!-- Row 2 Nodes (Sculptures moved to 4th) -->
+            <a xlink:href="murals.html">
+              <g class="tree-node" tabindex="0">
+                <rect x="280" y="220" rx="14" ry="14" width="140" height="56" />
+                <text x="350" y="255" class="tree-label" text-anchor="middle">Murals</text>
+              </g>
+            </a>
+            <a xlink:href="commission.html">
+              <g class="tree-node" tabindex="0">
+                <rect x="530" y="220" rx="14" ry="14" width="180" height="56" />
+                <text x="620" y="255" class="tree-label" text-anchor="middle">Commission Works</text>
+              </g>
+            </a>
+            <a xlink:href="training.html">
+              <g class="tree-node" tabindex="0">
+                <rect x="780" y="220" rx="14" ry="14" width="140" height="56" />
+                <text x="850" y="255" class="tree-label" text-anchor="middle">Training</text>
+              </g>
+            </a>
+            <a xlink:href="sculptures.html">
+              <g class="tree-node" tabindex="0">
+                <rect x="1030" y="220" rx="14" ry="14" width="140" height="56" />
+                <text x="1100" y="255" class="tree-label" text-anchor="middle">Sculptures</text>
+              </g>
+            </a>
+
+            <!-- Row 3 children under Murals -->
+            <g class="tree-node small">
+              <rect x="140" y="380" rx="12" ry="12" width="120" height="44" />
+              <text x="200" y="408" class="tree-label" text-anchor="middle">Indoor Murals</text>
+            </g>
+            <g class="tree-node small">
+              <rect x="290" y="380" rx="12" ry="12" width="120" height="44" />
+              <text x="350" y="408" class="tree-label" text-anchor="middle">Outdoor Murals</text>
+            </g>
+            <g class="tree-node small">
+              <rect x="440" y="380" rx="12" ry="12" width="120" height="44" />
+              <text x="500" y="408" class="tree-label" text-anchor="middle">Custom Murals</text>
+            </g>
+
+            <!-- Row 3 children under Sculptures (moved right) -->
+            <g class="tree-node small">
+              <rect x="920" y="380" rx="12" ry="12" width="120" height="44" />
+              <text x="980" y="408" class="tree-label" text-anchor="middle">Material-Based</text>
+            </g>
+            <g class="tree-node small">
+              <rect x="1060" y="380" rx="12" ry="12" width="120" height="44" />
+              <text x="1120" y="408" class="tree-label" text-anchor="middle">Customs</text>
+            </g>
+          </svg>
+
+          <!-- Mobile stacked fallback -->
+          <div class="service-stack">
+            <a href="murals.html">Murals</a>
+            <!-- <div class="tree-sublist">
+              <span>Indoor Murals</span>
+              <span>Outdoor Murals</span>
+              <span>Custom Murals</span>
+            </div> -->
+            <a href="sculptures.html">Sculptures</a>
+            <!-- <div class="tree-sublist">
+              <span>Material-Based</span>
+              <span>Customs</span>
+            </div> -->
+            <a href="commission.html">Commission Works</a>
+            <a href="training.html">Training</a>
+          </div>
+        </section>
+
+        <section class="achievement" aria-label="Artistic statement">
+          <p class="line">We offer a wide range of creative solutions, including indoor and outdoor murals, custom designs, sculptures, commissioned works, and professional training. Every project is planned with attention to detail and delivered with a focus on quality, aesthetics, and functionality.</p>
+          <p class="line">We’ve completed over 100 walls, delivered 200+ creative projects, and worked with more than 50 clients across different industries.</p>
+          <hr class="neon-divider" />
+        </section>
+
+        <!-- Service Tabs Navigation -->
+        <!-- <section class="service-tabs">
+          <a class="service-tab" href="murals.html">Murals</a>
+          <a class="service-tab" href="commission.html">Commission Works</a>
+          <a class="service-tab" href="training.html">Training</a>
+          <a class="service-tab" href="sculptures.html">Sculptures</a>
+        </section> -->
+
+        <section class="clients-section">
+          <h2>Our Clients</h2>
+        <div class="clients-split">
+          <div class="client-names">
+            <h3>Clients</h3>
+            <ul id="client-names"></ul>
+          </div>
+          <div class="client-collage" id="client-collage"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="Shalender Studios logo" />
+          <div>
+            <div class="title">Shalender Studios Pvt. Ltd.</div>
+            <div class="tagline">We make your place alive</div>
+            <div class="desc">In 2004, Shalender Studios was founded to create extraordinary artworks with a group of experienced and professional artists, graphic designers, and skilled workers.</div>
+          </div>
+        </div>
+
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="murals.html">Murals</a></li>
+              <li><a href="commission.html">Commission Work</a></li>
+              <li><a href="training.html">Training</a></li>
+              <li><a href="sculptures.html">Sculptures</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="contact-section">
+              <h4>Contact</h4>
+              <div class="contact-line">📍 <span>New Delhi, India</span></div>
+              <div class="contact-line">📧 <a href="mailto:shalenderart@gmail.com">shalenderart@gmail.com</a></div>
+              <div class="contact-line">📞 <a href="tel:+918826534837">8826534837</a>, <a href="tel:+919891873929">9891873929</a></div>
+            </div>
+            <div class="follow-us-section">
+              <h4>Follow Us</h4>
+              <div class="footer-social-links">
+                <a href="https://www.facebook.com/shalender.singh.161/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                  <img src="assets/Social_Media_icons/facebook.png" alt="Facebook" />
+                </a>
+                <a href="https://www.instagram.com/shalenderart/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <img src="assets/Social_Media_icons/instagram.png" alt="Instagram" />
+                </a>
+                <a href="https://www.youtube.com/@SHALENDERARTIST" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                  <img src="assets/Social_Media_icons/youtube-logo-youtube-icon-transparent-free-png.webp" alt="YouTube" />
+                </a>
+                <a href="https://wa.me/919891873929" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                  <img src="assets/Social_Media_icons/whatsapp.png" alt="WhatsApp" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        ALL IMAGES AND SITE CONTENT COPYRIGHT © 2025 SHALENDER SINGH - ALL RIGHTS RESERVED
+      </div>
+    </footer>
+  </body>
+  </html>
+
+
